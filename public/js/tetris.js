@@ -263,7 +263,7 @@ function updateScore() {
 
 function updateLevel() {
   if (player.level === 0){
-    if (player.lines >= 10){//10
+    if (player.lines >= 10){ //This is normally 10
       player.level ++
       dropInterval -= 100;
     }
@@ -274,7 +274,7 @@ function updateLevel() {
       console.log(dropInterval)
     }
   } else if (player.level > 1){
-    if (player.lines >= 10 * player.level + 10) {//10
+    if (player.lines >= 10 * player.level + 10) {
       player.level ++;
       dropInterval -= 100;
       console.log(dropInterval)
