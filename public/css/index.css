@@ -29,7 +29,7 @@ h1 {
   height: 300px;
 }
 
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 720px) {
   #screenshots {
     display: block;
   }
