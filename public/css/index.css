@@ -12,6 +12,7 @@ h1 {
 
 #screenshots {
   display: flex;
+  flex: 1;
 }
 
 #tic-tac-toe-screenshot {
@@ -29,7 +30,7 @@ h1 {
   height: 300px;
 }
 
-@media only screen and (max-width: 720px) {
+@media screen and (max-width: 720px) {
   #screenshots {
     display: block;
   }
