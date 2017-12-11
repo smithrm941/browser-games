@@ -12,31 +12,19 @@ h1 {
 }
 
 #screenshots {
-  text-align: center;
+  margin: auto;
   display: flex;
   flex: 1;
 }
 
-#tic-tac-toe-screenshot {
-  width: 30vw;
-  height: 30vh;
+#screenshots img {
+  width: 100px;
+  height: 100px;
 }
 
-#simon-screenshot {
-  width: 30vw;
-  height: 30vh;
-}
-
-#tetris-screenshot {
-  width: 30vw;
-  height: 30vh;
-}
 
 @media screen and (max-width: 720px) {
-  h1 {
-    color: black;
-  }
-  body {
+  #screenshots {
     display: block;
   }
 }
