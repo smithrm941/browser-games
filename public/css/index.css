@@ -9,6 +9,11 @@ Body {
 h1 {
   font-family: 'Inknut Antiqua', serif;
   color: pink;
+  font-size: 12vh;
+}
+
+h3 {
+  font-size: 6vh;
 }
 
 #screenshots {
@@ -18,8 +23,11 @@ h1 {
 }
 
 #screenshots img {
-  width: 50vh;
-  height: 50vh;
+  margin: auto;
+  display: flex;
+  flex: 1;
+  width: 70vh;
+  height: 70vh;
 }
 
 
